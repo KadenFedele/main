@@ -12,5 +12,20 @@ body {
 
 .container {
     display: flex;
-    
+    width: 90vw;
+    justify-content: center;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 10px;
+    flex: 1;
+    border-radius: 50px;
+    curser: pointer;
+    position: relative;
+    color: #ffffff;
+    transition: all 1s ease-in;
 }
