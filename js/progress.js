@@ -13,7 +13,6 @@ next.addEventListener('click', () => {
         currentActive = 4
     }
 
-
     update()
 })
 
