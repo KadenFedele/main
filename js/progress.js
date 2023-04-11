@@ -14,7 +14,7 @@ next.addEventListener('click', () => {
     }
 
 
-    upadate()
+    update()
 })
 
 
