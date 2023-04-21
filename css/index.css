@@ -1,11 +1,47 @@
 
 
-body {
-    background-color: grey;
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+/* reset default margin and padding for all elements */
+* {
     margin: 0;
-    overflow: hidden;
-}
+    padding: 0;
+  }
+
+  /* set box-sizing property to border-box for all elements */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /* set font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* style the links */
+  a {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  /* style the hover state for links */
+a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  /* style the active state for links */
+  a:active {
+    background-color: #0056b3;
+    color: #fff;
+  }
