@@ -1,26 +1,26 @@
 
 
-/* reset default margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
   }
 
-  /* set box-sizing property to border-box for all elements */
+
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
 
-  /* set font family and size */
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     text-align: center;
+    background-color: black;
   }
 
-  /* style the links */
+
   a {
     display: block;
     margin: 20px auto;
@@ -34,14 +34,14 @@ body {
     transition: all 0.3s ease;
   }
 
-  /* style the hover state for links */
+
 a:hover {
     background-color: #007bff;
     color: #fff;
   }
 
-  /* style the active state for links */
+
   a:active {
     background-color: #0056b3;
-    color: #fff;
+    color: grey;
   }
