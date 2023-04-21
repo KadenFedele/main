@@ -7,10 +7,10 @@ counters.forEach(counter => {
         const target = +counter.getAttribute('data-target')
         const c = +counter.innerText
 
-        const increment = target / 200
+        const increment = target / 2000
 
         if (c < target) {
-            counter.innerText = '${Math.ceil(c + increment)}'
+            counter.innerText = `${Math.ceil(c + increment)}`
             setTimeout(updateCounter, 1)
         } else {
             counter.innerText = target
