@@ -9,3 +9,4 @@ for (var i = 0; i < navLinks.length; i++) {
     this.style.color = "#007bff";
   });
 }
+
